@@ -1,0 +1,85 @@
+.taskForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.6875rem;
+}
+
+.taskForm input {
+  padding: 1rem;
+  border: 0;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  background: var(--gray-500);
+  width: 100%;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+}
+
+.taskForm input:focus {
+  box-shadow: 0 0 0 1px var(--purple-dark);
+}
+
+.taskForm button {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 8px;
+  border: 0;
+  gap: 0.3rem;
+  cursor: pointer;
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.taskForm button:hover {
+  opacity: 0.9;
+}
+
+.taskForm button:disabled {
+  cursor: not-allowed;
+}
+
+.content .title{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 0.875rem;
+  padding-bottom: 1.5rem;
+  margin-top: 4rem;
+}
+
+.createdTasks{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasks p {
+  color: var(--blue);
+}
+
+.createdTasks span {
+  background: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+
+.completedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.completedTasks p {
+  color: var(--purple);
+}
+
+.completedTasks span {
+  background: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+

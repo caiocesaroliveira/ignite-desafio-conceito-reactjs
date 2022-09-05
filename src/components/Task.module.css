@@ -1,0 +1,49 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  
+  margin-top: 1rem;
+}
+
+.checkBoxAndTask {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task .notCompleteTask {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.task .completeTask {
+  font-size: 0.875rem;
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+}
+
+
+
+.deleteTask {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--gray-300);
+}
+
+.deleteTask:hover {
+  background-color: var(--gray-400);
+  color: var(--danger);
+  border-radius: 4px;
+}
